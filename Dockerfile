@@ -1,5 +1,5 @@
 # Usando uma imagem base do Java
-FROM openjdk:21-jdk
+FROM amazoncorretto:21-alpine-jdk
 
 # Definindo o diretório de trabalho dentro do contêiner
 WORKDIR /app
